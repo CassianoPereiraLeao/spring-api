@@ -1,9 +1,13 @@
 package com.api.spring_api.domain.entities.task;
 
+import com.api.spring_api.domain.entities.user.User;
+
 import jakarta.persistence.Table;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
